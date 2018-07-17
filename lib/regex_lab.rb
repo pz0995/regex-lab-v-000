@@ -12,10 +12,8 @@ def words_starting_with_un_and_ending_with_ing(text)
 end
 
 def words_five_letters_long(word)
+text.scan = (/\b[a-z]{5}\b/i
 
-"extreme briny crepe parking snaps grouping snafu round dog be fork spoon"
-matches = (/\[(.*?)\](.*)/.scan('[ruby] regex'))
-matches.to_a
 
 end
 
