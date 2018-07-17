@@ -1,6 +1,6 @@
-def starts_with_a_vowel?(word)
+def starts_with_a_vowel?(word) ? true : false
 Regexp.new("/\A[^aeiou]/") !=nil
-? true : false
+
 end
 
 
@@ -19,7 +19,7 @@ matches.to_a
 
 end
 
-def first_word_capitalized_and_ends_with_punctuation?(word)
+def first_word_capitalized_and_ends_with_punctuation?(word)? true : false
 !!Regexp.union("^[A-Z]", ".")
 end
 
