@@ -1,12 +1,13 @@
 def starts_with_a_vowel?(word)
-Regexp.new("/\A[^aeiou]/") !=nil
+word.match("/\A[^aeiou]/") ? true : false
 
 end
 
 
 def words_starting_with_un_and_ending_with_ing(text)
   text.scan = (/un\w+ing/i)
-
+  Regexp.union(reg)
+  text.to_a
 
 end
 
