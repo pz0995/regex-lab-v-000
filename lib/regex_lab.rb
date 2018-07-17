@@ -19,7 +19,7 @@ matches.to_a
 
 end
 
-def first_word_capitalized_and_ends_with_punctuation?(word)? true : false
+def first_word_capitalized_and_ends_with_punctuation?(word)
 !!Regexp.union("^[A-Z]", ".")
 end
 
