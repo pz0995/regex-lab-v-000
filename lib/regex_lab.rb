@@ -14,10 +14,7 @@ def first_word_capitalized_and_ends_with_punctuation?(word)
 text.match(/^[A-Z].+\.$/) ? true : false
 end
 
-
-# def valid_phone_number?(phone)
-# Regexp.new("~/\b^([0-9]{10})$\b/")
-# return (phone.match(phone))?
-# end
-
-#regex union multiple
+def valid_phone_number?(phone)
+phone.match(/^[(]?\d{3}[)]?[\s]?\d{3}[\s-]?\d{4}$/)
+? true : false
+end
