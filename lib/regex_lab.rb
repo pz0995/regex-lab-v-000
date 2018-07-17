@@ -5,9 +5,8 @@ end
 
 
 def words_starting_with_un_and_ending_with_ing(text)
-text.scan = (/un\w+ing/i)
-Regexp.union(reg)
-text.to_a
+  text.scan = (/un\w+ing/i)
+
 
 end
 
