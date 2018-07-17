@@ -1,4 +1,4 @@
-def starts_with_a_vowel?(word) ? true : false
+def starts_with_a_vowel?(word)
 Regexp.new("/\A[^aeiou]/") !=nil
 
 end
