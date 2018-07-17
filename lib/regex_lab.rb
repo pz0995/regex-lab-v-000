@@ -4,7 +4,7 @@ end
 
 
 def words_starting_with_un_and_ending_with_ing(text)
-reg ("^un", "ing")
+reg = "^un", "ing"
 Regexp.union(reg)
 text.to_a
 
